@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Family&Friends</title>
+  <link rel="stylesheet" href="../src/slide.css">
+
+</head>
+<body>
+  <h1>FAMILY&FRIENDS</h1>
+  <div class="container">
+
+    <!-- Full-width images with number text -->
+    <div class="mySlides">
+      <div class="numbertext">1 / 6</div>
+        <img src="../img/f1.jpeg" style="width: 80%; height:450px; margin-left: 100px; margin-right: 100px;"alt="fam1">
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext">2 / 6</div>
+        <img src="../img/pransu.jpg"style="width: 80%; height:450px; margin-left: 100px;margin-right: 100px;" alt="frnd1">
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext">3 / 6</div>
+        <img src="../img/f2.jpg" style="width: 80%; height:450px;margin-left: 100px;margin-right: 100px; " alt="fam2">
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext">4 / 6</div>
+        <img src="../img/Snapchat-1290149636.jpg" style="width: 80%; height:450px;margin-left: 100px;margin-right: 100px; alt: frnd2;">
+    </div>
+    <div class="mySlides">
+      <div class="numbertext">5 / 6</div>
+        <img src="../img/f3.jpeg" style="width: 80%; height:450px;margin-left: 100px;margin-right: 100px;" alt="fam3">
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext">6 / 6</div>
+        <img src="../img/iv.jpg" style="width: 80%; height:450px;margin-left: 100px;margin-right: 100px;" alt="bf">
+    </div>
+  
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  
+    <!-- Image text -->
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+  
+    <!-- Thumbnail images -->
+    <div class="row">
+      <div class="column">
+        <img class="demo cursor" src="../img/f1.jpeg" style="width:100%" onclick="currentSlide(1)" alt="FAMILY">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="../img/pransu.jpg" style="width:100%" onclick="currentSlide(2)" alt="FRIEND">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="../img/f2.jpg" style="width:100%" onclick="currentSlide(3)" alt="FAMILY">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="../img/Snapchat-1290149636.jpg" style="width:100%" onclick="currentSlide(4)" alt="FRIENDS">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="../img/f3.jpeg" style="width:100%" onclick="currentSlide(5)" alt="FAMILY">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="../img/iv.jpg" style="width:100%" onclick="currentSlide(6)" alt="BF">
+      </div>
+    </div>
+  </div>
+  <div class="back"><button><a href="../index.html">Home</a></button></div>
+
+</body>
+<script src="../js/slider.js"></script>
+</html>

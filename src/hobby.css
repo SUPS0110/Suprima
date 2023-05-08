@@ -1,0 +1,79 @@
+h1{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:slateblue;
+    font-size: 40px;
+    margin: 5px;
+  }
+.hobbies{
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 10px;
+        padding: 10px;
+        width: 96%;
+       
+}
+.box{
+    position: relative;
+    display: flex;
+    flex-direction:column;
+    height:400px;
+    width: 40%;
+    border: 3px dotted blue;
+    margin-top: 20px;
+    margin-left: 25px ;
+    justify-content: center;
+    align-items: center;
+    
+}
+.title{
+    height: fit-content;
+    width: fit-content;
+}
+.title h2{
+    font-size: 25px;
+    font-family: serif;
+    color: slateblue;
+    text-shadow: 2px 2px rgb(149, 199, 241);
+
+}
+
+.box img{
+    position: relative;
+    height:180px;
+    width:300px ;
+margin: 5px;;
+}
+.desc{
+    position: relative;
+    display: inline-flex;
+    overflow-y: scroll;
+    height: 60%;
+    padding: 8px;
+    color: rgb(100, 124, 148);
+}
+.back{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .back button{
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(179, 122, 233);
+    border: 2px groove ;
+    border-radius: 5px;
+    margin:10px;
+    height: 30px;
+    width: 80px;
+
+  }
+  .back a{
+    color: azure;
+    font-size: 15px;
+    
+  }

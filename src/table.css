@@ -1,0 +1,45 @@
+body{
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: thistle;
+}
+th, td {
+    background-color: wheat;
+    padding: 20px;
+    border-style: groove;
+  }
+  h1{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:slateblue;
+    font-size: 40px;
+    margin: 5px;
+  }
+  .back{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .back button{
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(179, 122, 233);
+    border: 2px groove ;
+    border-radius: 5px;
+    margin: 10px;
+    height: 30px;
+    width: 80px;
+
+  }
+  .back a{
+    color: azure;
+    font-size: 15px;
+    
+  }
